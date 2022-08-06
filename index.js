@@ -3,7 +3,7 @@
 const program = require('commander');
 const download = require('download-git-repo');
 
-program.version('1.0.0', '-v --version')
+program.version('1.0.2', '-v --version')
     .command('new <projectName>')
     .action((projectName) => {
         console.log('clone template ...');
